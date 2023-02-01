@@ -1,0 +1,43 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    background-color: #2D7BA5;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #055B87;
+    width: 125px;
+    height: 175px;
+    padding: 5px;
+    box-sizing: 'border-box';
+    cursor: pointer;
+    user-select: none;
+}
+
+.button {
+    border: none;
+    color: #fff;
+    background-color: black;
+    margin-right: 12px;
+    padding: 5px 8px;
+}
+
+.result-message {
+    color: white;
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.board {
+    position: relative;
+}
